@@ -11,7 +11,8 @@ const options =
 	/**
 	 * Change the file name of the output file here.
 	 */
-	filename: "my-plugin.js",
+	filename: "staff-repairs-vandalism.js",
+	// filename: "staff-repairs-vandalism-crazy-gorillas.js",
 
 	/**
 	 * Determines in what build mode the plugin should be build. The default here takes

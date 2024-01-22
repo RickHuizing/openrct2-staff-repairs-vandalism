@@ -3,9 +3,9 @@
 import { startup } from "./startup";
 
 registerPlugin({
-	name: "Name of your plugin",
+	name: "Staff Repairs Vandalism",
 	version: "1.0",
-	authors: [ "Your name" ],
+	authors: [ "Rick Huizing" ],
 	type: "remote",
 	licence: "MIT",
 	/**
@@ -14,6 +14,6 @@ registerPlugin({
 	 * version. Version 70 equals the v0.4.4 release.
 	 * @see https://github.com/OpenRCT2/OpenRCT2/blob/v0.4.4/src/openrct2/scripting/ScriptEngine.h#L50
 	 */
-	targetApiVersion: 70,
+	targetApiVersion: 81,
 	main: startup,
 });
